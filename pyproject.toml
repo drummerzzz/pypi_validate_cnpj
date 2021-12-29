@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "validate_cnpj"
+version = "0.0.1"
+description = "Faz a validação de CNPJ Brasileiro"
+authors = ["Drummerzzz <devdrummerzzz@gmail.com>"]
+keywords = ['cnpj', 'validador', 'validação', 'validation', 'validator', 'poetry']
+
+repository = "https://github.com/drummerzzz/pypi_validate_cnpj"
+homepage = "https://github.com/drummerzzz/pypi_validate_cnpj/README.md"
+
+readme = 'README.md'
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
